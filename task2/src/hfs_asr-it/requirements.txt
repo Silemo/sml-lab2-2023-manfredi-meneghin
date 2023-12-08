@@ -1,0 +1,6 @@
+gradio
+pytube
+transformers
+requests
+torch
+transformers
