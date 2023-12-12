@@ -27,7 +27,7 @@ def transcribe_video(url):
     stream = yt.streams.get_audio_only()
 
     # Saves the audio in the /audio folder
-    audio = stream.download() #output_path = "audio/"
+    audio = stream.download() 
 
     text = transcribe_and_tag(audio)
 
